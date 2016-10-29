@@ -4,10 +4,10 @@ import net.youmi.android.AdManager;
 import net.youmi.android.banner.AdSize;
 import net.youmi.android.banner.AdView;
 import net.youmi.android.banner.AdViewListener;
+import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -17,7 +17,7 @@ import android.widget.FrameLayout;
 import com.phkg.b.BManager;
 import com.phkg.b.MyBMDevListner;
 
-public class MainActivity extends ActionBarActivity
+public class MainActivity extends Activity
 {
 	protected final static String TAG = "MainActivity";
 	MainView view;
